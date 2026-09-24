@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vpbanksvn.github.io/vpbanks-blog/sitemap.xml
