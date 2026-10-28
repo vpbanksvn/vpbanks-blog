@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hai chỉ báo con của dải Bollinger: %B và độ rộng dải</title><meta name="description" content="Ngoài ba đường vẽ trên biểu đồ, dải Bollinger còn sinh ra hai chỉ báo dạng số giúp đọc vị trí giá chính xác hơn. dải Bollinger và cách sử dụng (https://www.vpbanks.com.vn/trung-tam"><style>
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;padding:32px 20px 64px;
+  font:17px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:#1c1e21;background:#fff}
+main,article{max-width:720px;margin:0 auto}
+h1{font-size:1.9rem;line-height:1.3;margin:0 0 .6em;font-weight:700}
+h2{font-size:1.35rem;line-height:1.35;margin:1.8em 0 .5em}
+h3{font-size:1.15rem;line-height:1.4;margin:1.8em 0 .5em}
+p{margin:0 0 1.15em}
+ul,ol{margin:0 0 1.15em;padding-left:1.4em}
+li{margin:.3em 0}
+a{color:#0b5fff;text-decoration:underline;text-underline-offset:2px}
+img{max-width:100%;height:auto;display:block;margin:1.6em auto;border-radius:8px}
+em,figcaption{color:#5b6570}
+blockquote{margin:1.4em 0;padding:.8em 1em;border-left:3px solid #d7dbe0;background:#f7f8fa}
+small{color:#5b6570}
+hr{border:0;border-top:1px solid #e6e9ec;margin:2em 0}
+table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:.94em}
+th,td{border:1px solid #e0e4e8;padding:.55em .7em;text-align:left;vertical-align:top}
+th{background:#f4f6f8;font-weight:600}
+.tbl{overflow-x:auto}
+ul.kw{columns:2;column-gap:2em;padding-left:1.2em}
+@media (max-width:600px){ul.kw{columns:1}}
+@media (max-width:600px){body{padding:20px 16px 48px;font-size:16px}h1{font-size:1.55rem}}
+@media (prefers-color-scheme:dark){
+  body{background:#15171a;color:#e6e8ea}
+  a{color:#7aa7ff}
+  blockquote{background:#1d2024;border-left-color:#333}
+  th{background:#20242a}
+  th,td{border-color:#2e3238}
+  em,figcaption,small{color:#9aa3ad}
+  hr{border-top-color:#2a2e33}
+}
+</style></head>
+<body>
+<article>
+<h1>Hai chỉ báo con của dải Bollinger: %B và độ rộng dải</h1>
+<p>Ngoài ba đường vẽ trên biểu đồ, dải Bollinger còn sinh ra hai chỉ báo dạng số giúp đọc vị trí giá chính xác hơn. <a href="https://www.vpbanks.com.vn/trung-tam-kien-thuc/bollinger-bands-la-gi">dải Bollinger và cách sử dụng</a> Bài này trả lời các câu hỏi hay gặp về %B và độ rộng dải, hai công cụ ít được nhắc trong tài liệu nhập môn.</p>
+<h3>%B là gì?</h3>
+<p>%B đo vị trí của giá đóng cửa so với hai dải. Công thức là giá trừ dải dưới, chia cho khoảng cách giữa dải trên và dải dưới. Khi giá nằm đúng dải dưới, %B bằng 0. Khi giá nằm đúng dải trên, %B bằng 1. Giá ở đường giữa cho %B bằng 0,5. Giá vượt ra ngoài dải sẽ cho %B lớn hơn 1 hoặc nhỏ hơn 0.</p>
+
+<p style="margin:10px 0;padding:9px 14px;background:#f0f7ff;border-left:4px solid #2563eb;border-radius:0 6px 6px 0;font-size:13px;line-height:1.5">&#128279; <strong style="color:#1e3a5f">Xem thêm:</strong> <a href="https://vpbanks-blog.web.app/posts/bollinger-bands-la-gi.html" style="color:#2563eb;text-decoration:underline">Bollinger Bands trong bốn phép tính: dải giữa, độ lệch chuẩn, %b và BandWidth</a></p>
+<h3>Vì sao cần %B khi đã nhìn thấy biểu đồ?</h3>
+<p>Mắt thường khó so sánh vị trí giá giữa các thời điểm khi hai dải liên tục co giãn. %B quy mọi thứ về một thang chung, nên có thể đặt điều kiện cụ thể, ví dụ lọc các phiên %B dưới 0,05. %B cũng tiện để so sánh nhiều mã cùng lúc, điều mà biểu đồ từng mã không làm được.</p>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid24%20(5)" alt="dải bollinger - Vì sao cần %B khi đã nhìn thấy biểu đồ?" title="dải bollinger - Vì sao cần %B khi đã nhìn thấy biểu đồ?" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: dải bollinger</em></p>
+
+<p style="margin:10px 0;padding:9px 14px;background:#f0f7ff;border-left:4px solid #2563eb;border-radius:0 6px 6px 0;font-size:13px;line-height:1.5">&#128279; <strong style="color:#1e3a5f">Xem thêm:</strong> <a href="https://telegra.ph/EPS-là-gì-Công-thức-tính-và-ví-dụ-bằng-số-09-23" style="color:#2563eb;text-decoration:underline">EPS là gì? Công thức tính và ví dụ bằng số</a></p>
+<h3>Độ rộng dải tính thế nào?</h3>
+<p>Độ rộng dải, tiếng Anh là Bandwidth, bằng dải trên trừ dải dưới, chia cho đường giữa. Kết quả thường nhân 100 để đọc theo phần trăm. Vì chia cho đường giữa, chỉ báo này so sánh được mức biến động giữa mã giá 10.000 đồng và mã giá 100.000 đồng.</p>
+<h3>Độ rộng dải dùng vào việc gì?</h3>
+<p>Ứng dụng quen thuộc là tìm giai đoạn nén biến động. Khi độ rộng dải xuống mức thấp so với sáu tháng gần đây, giá đang dao động trong biên hẹp bất thường. John Bollinger gọi đây là Squeeze. Sau giai đoạn nén thường là một đợt biến động mạnh, nhưng chỉ báo không cho biết hướng đi.</p>
+<h3>Kết hợp hai chỉ báo ra sao?</h3>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid25%20(5)" alt="dải bollinger - Kết hợp hai chỉ báo ra sao?" title="dải bollinger - Kết hợp hai chỉ báo ra sao?" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: dải bollinger</em></p>
+<p>Một <a href="https://vpbanksvn.github.io/vpbanks-blog/posts/cach-oc-bao-cao-tai-chinh.html">cách đọc</a> là dùng độ rộng dải để xác định trạng thái nén, sau đó theo dõi %B. Nếu %B vượt 1 kèm khối lượng tăng ngay sau giai đoạn nén, đó là dấu hiệu giá đang bứt lên. Nếu %B rơi dưới 0, khả năng là bứt xuống. Dù vậy, cần thêm xác nhận từ khối lượng hoặc phiên kế tiếp.</p>
+<h3>Có cần chỉnh tham số không?</h3>
+<p>Cả %B và độ rộng dải đều tính từ cấu hình gốc 20 phiên và hệ số 2 độ lệch chuẩn. Đổi cấu hình thì ngưỡng đọc cũng phải đổi theo. Khi mới học, giữ cấu hình mặc định giúp dễ đối chiếu với tài liệu và với người khác.</p>
+<h3>Hạn chế cần biết</h3>
+<p>Cả hai chỉ báo đều chỉ dựa trên giá đóng cửa, nên phiên có biên độ trong ngày lớn nhưng đóng cửa gần giá mở cửa sẽ không phản ánh đầy đủ. Với cổ phiếu thanh khoản thấp, một phiên giao dịch đột biến cũng làm độ rộng dải tăng vọt rồi giảm nhanh.</p>
+<h3>Kết luận</h3>
+<p style="text-align:center;margin:18px 0"><img src="https://s3.vpbanks.com.vn/vpbanks/blobid23%20(5)" alt="dải bollinger - Kết luận" title="dải bollinger - Kết luận" style="max-width:100%;width:auto;max-height:420px;height:auto;display:inline-block;object-fit:contain;border-radius:4px"/><em style="display:block;font-size:13px;line-height:1.5;color:#666;margin-top:6px">Minh hoạ: dải bollinger</em></p>
+<p>%B cho biết giá đang ở đâu trong dải, độ rộng dải cho biết dải đang rộng hay hẹp. Hai con số này biến hình ảnh trên biểu đồ thành dữ liệu có thể so sánh và lọc.</p>
+<p>Nội dung mang tính tham khảo, không phải khuyến nghị đầu tư.</p>
+
+<p>#daibollinger #percentb #bandwidth #vpbanks</p>
+</article>
+</body></html>
